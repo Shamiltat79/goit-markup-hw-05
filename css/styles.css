@@ -921,7 +921,7 @@ cursor: pointer;
 position: relative;
 overflow: hidden;
 }
-.thumb-example:hover .example-overlay {
+.example-items:hover .example-overlay {
 /* top: 0;
 left: 0; */
 transform: translateY(0);
