@@ -946,7 +946,7 @@ font-family: var(--font-family-primary);
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
-line-height: 1,55;
+line-height: 1.55;
 letter-spacing: 0.03em;
 color: var(--accent-text-color);
 }
