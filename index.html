@@ -25,7 +25,7 @@
           <a href="/" class="headerlink"> <span class="logotype">Web</span>Studio </a>
           <ul class="navlist list">
             <li class="navlist-item">
-              <a href="./index.html" class="nav-link">Студия</a>
+              <a href="./index.html" class="nav-link current">Студия</a>
             </li>
             <li class="navlist-item">
               <a href="./portfolio.html" class="nav-link">Портфолио</a>
@@ -53,21 +53,16 @@
 
     <main class="main">
       <!--section1-->
-      <section class="hero">
+    <section class="hero">
         <div class="overlay">
           <div class="hero-section">
             <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
             <button type="button" class="hero-button" data-modal-open>Заказать услугу</button>
           </div>
         </div>
-        <div class="backdrop is-hidden" data-modal>
-          <div class="modal">
-            <button type="button" class="modal-close" data-modal-close>
-              <img src="./images/cross.svg" alt="" width="11" height="11" />
-            </button>
-          </div>
-        </div>
+        
       </section>
+   
       <!--section2-->
       <section class="featuгes">
         <div class="features-container">
@@ -391,6 +386,13 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close" data-modal-close>
+          <img src="./images/cross.svg" alt="" width="11" height="11" />
+        </button>
+      </div>
+  </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
