@@ -173,15 +173,16 @@
           <a href="/" class="footerlink">
             <span class="logotype-footer">Web</span><span class="footer-logo"> Studio</span></a
           >
-        </div>
+          <div class="footer-adress">
+            <address class="contacts">
+              <p>г. Киев, пр-т Леси Украинки, 26</p>
+              <a href="mailto:info@example.com" class="mail-link-footer">info@example.com</a>
+              <a href="tel:+380991111111" class="tel-footer">+38 099 111 11 11</a>
+            </address>
+      </div>
+      </div>
+      <div class="footer-social">
         <div class="footer-title"><h3>ПРИСОЕДИНЯЙТЕСЬ</h3></div>
-        <address class="contacts">
-          <p>г. Киев, пр-т Леси Украинки, 26</p>
-          <a href="mailto:info@example.com" class="mail-link-footer">info@example.com</a>
-          <a href="tel:+380991111111" class="tel-footer">+38 099 111 11 11</a>
-        </address>
-
-        <div class="footer-social">
           <ul class="footerlink-list list">
             <li>
               <a href="#" class="footerlink-item"
@@ -209,6 +210,15 @@
             </li>
           </ul>
         </div>
+        <form class="footer-form" name="signup-form" autocomplete="on" novalidate> 
+          <div class="footer-field">
+            <label class="footer-label" for="subscribe-email">ПОДПИШИТЕСЬ НА РАССЫЛКУ</label>
+            <div class="input-border"><input class="footer-input" type="email" name="subscribe" id="subscribe-email" placeholder="E-mail">
+              <button type="submit" class="subscribe-button">Подписаться<svg class="send"><use href="./images/symbol-defs.svg#icon-icon-send"></use></svg></button>
+            </div>
+            
+          </div>
+        </form>
       </div>
     </footer>
   </body>
